@@ -18,6 +18,7 @@ public class Application extends Frame implements WindowListener {
 		this.setLocationRelativeTo(null);
 		this.addWindowListener(this);		
 		this.add(vue);
+		this.setTitle("Appli Polo");
 		this.pack();
 		this.setVisible(true);
 	}
